@@ -497,7 +497,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /60355D3C)
-    (fp_text reference K1 (at 0 -4.318 90) (layer F.SilkS)
+    (fp_text reference K1 (at 0 -4.318 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value KEYSW (at 5.334 -10.922 90) (layer F.SilkS) hide
@@ -545,7 +545,7 @@
     (descr "Pro Micro footprint")
     (tags "promicro ProMicro")
     (path /60353DF0)
-    (fp_text reference U1 (at 0 1.625) (layer F.SilkS)
+    (fp_text reference U1 (at 0 1.625) (layer F.SilkS) hide
       (effects (font (size 1.27 1.524) (thickness 0.2032)))
     )
     (fp_text value ProMicro (at 0 0) (layer F.SilkS) hide
@@ -622,7 +622,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /60356A52)
-    (fp_text reference K2 (at 0 -4.318 90) (layer F.SilkS)
+    (fp_text reference K2 (at 0 -4.318 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value KEYSW (at 5.334 -10.922 90) (layer F.SilkS) hide
@@ -670,7 +670,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /60357102)
-    (fp_text reference K3 (at 0 -4.318 90) (layer F.SilkS)
+    (fp_text reference K3 (at 0 -4.318 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value KEYSW (at 5.334 -10.922 90) (layer F.SilkS) hide
@@ -718,7 +718,7 @@
     (descr MXALPS)
     (tags MXALPS)
     (path /60357B4F)
-    (fp_text reference K4 (at 0 -4.318 90) (layer F.SilkS)
+    (fp_text reference K4 (at 0 -4.318 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
     )
     (fp_text value KEYSW (at 5.334 -10.922 90) (layer F.SilkS) hide
@@ -767,7 +767,7 @@
     (tags "SPST Tactile Switch")
     (path /6035CAA1)
     (attr smd)
-    (fp_text reference SW1 (at 0 -3.75) (layer F.SilkS)
+    (fp_text reference SW1 (at 0 -3.75) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SW_PUSH (at 0 3.75) (layer F.Fab)
