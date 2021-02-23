@@ -172,7 +172,6 @@ F 3 "" H 4250 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 4250 2000
-NoConn ~ 3150 950 
 NoConn ~ 50   2800
 Text Label 4250 2900 0    50   ~ 0
 SW2
@@ -180,10 +179,8 @@ Text Label 4250 2800 0    50   ~ 0
 SW1
 NoConn ~ 4250 2400
 NoConn ~ 4250 3100
-NoConn ~ 2900 1650
 NoConn ~ 2850 3100
 Text Label 2850 3000 2    50   ~ 0
 SW4
 NoConn ~ 2850 2900
-NoConn ~ 2900 3750
 $EndSCHEMATC
