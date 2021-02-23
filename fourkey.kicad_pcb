@@ -5,7 +5,7 @@
     (drawings 37)
     (tracks 38)
     (zones 0)
-    (modules 23)
+    (modules 27)
     (nets 27)
   )
 
@@ -151,6 +151,70 @@
     (add_net "Net-(U1-Pad8)")
     (add_net "Net-(U1-Pad9)")
     (add_net VCC)
+  )
+
+  (module Keebio-Parts:breakaway-mousebites (layer F.Cu) (tedit 5B90EF0D) (tstamp 60360CB5)
+    (at 147.32 98.044)
+    (fp_text reference REF** (at 0 -3.048) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value breakaway-mousebites (at 0 -4.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.794 0) (end 2.794 0) (layer Dwgs.User) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 1.27 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 2.54 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.27 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -2.54 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+  )
+
+  (module Keebio-Parts:breakaway-mousebites (layer F.Cu) (tedit 5B90EF0D) (tstamp 60360CB5)
+    (at 192.786 98.044)
+    (fp_text reference REF** (at 0 -3.048) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value breakaway-mousebites (at 0 -4.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.794 0) (end 2.794 0) (layer Dwgs.User) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 1.27 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 2.54 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.27 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -2.54 -0.254) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+  )
+
+  (module Keebio-Parts:breakaway-mousebites (layer F.Cu) (tedit 5B90EF0D) (tstamp 60360C94)
+    (at 192.786 74.676 180)
+    (fp_text reference REF** (at 0 -3.048) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value breakaway-mousebites (at 0 -4.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.794 0) (end 2.794 0) (layer Dwgs.User) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 1.27 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 2.54 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.27 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -2.54 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+  )
+
+  (module Keebio-Parts:breakaway-mousebites (layer F.Cu) (tedit 5B90EF0D) (tstamp 60360C94)
+    (at 147.32 74.676 180)
+    (fp_text reference REF** (at 0 -3.048) (layer Dwgs.User) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value breakaway-mousebites (at 0 -4.75) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -2.794 0) (end 2.794 0) (layer Dwgs.User) (width 0.15))
+    (pad "" np_thru_hole circle (at 0 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 1.27 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 2.54 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -1.27 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -2.54 -0.254 180) (size 0.7874 0.7874) (drill 0.7874) (layers *.Cu *.Mask))
   )
 
   (module Keebio-Parts:breakaway-mousebites (layer F.Cu) (tedit 5B90EF0D) (tstamp 6036022F)
