@@ -269,7 +269,7 @@
   )
 
   (module Keebio-Parts:MX_Switch_Cutout locked (layer F.Cu) (tedit 59612069) (tstamp 6035BA15)
-    (at 198.628 109.982 90)
+    (at 198.628 110.474 90)
     (fp_text reference REF** (at 0.25 10.05 90) (layer Eco2.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -297,7 +297,7 @@
   )
 
   (module Keebio-Parts:MX_Switch_Cutout locked (layer F.Cu) (tedit 59612069) (tstamp 6035B958)
-    (at 179.578 109.982 90)
+    (at 179.578 110.474 90)
     (fp_text reference REF** (at 0.25 10.05 90) (layer Eco2.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -325,7 +325,7 @@
   )
 
   (module Keebio-Parts:MX_Switch_Cutout locked (layer F.Cu) (tedit 59612069) (tstamp 6035B997)
-    (at 160.528 109.982 90)
+    (at 160.528 110.474 90)
     (fp_text reference REF** (at 0.25 10.05 90) (layer Eco2.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -353,7 +353,7 @@
   )
 
   (module Keebio-Parts:MX_Switch_Cutout locked (layer F.Cu) (tedit 59612069) (tstamp 6035B9D6)
-    (at 141.478 109.982 90)
+    (at 141.478 110.474 90)
     (fp_text reference REF** (at 0.25 10.05 90) (layer Eco2.User) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
