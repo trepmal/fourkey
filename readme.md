@@ -4,6 +4,4 @@
 
 ![render](fourkey.png)
 
-- needs proper cutouts for switch in top plate
-- needs screw holes
-- needs reset button hole
+- needs work on breakaway tabs/mousebites
