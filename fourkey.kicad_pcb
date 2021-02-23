@@ -165,7 +165,7 @@
   )
 
   (module keyboard_parts:HOLE_M2.6 (layer B.Cu) (tedit 0) (tstamp 6035B400)
-    (at 130.048 120.65)
+    (at 130.048 121.142)
     (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
@@ -176,7 +176,7 @@
   )
 
   (module keyboard_parts:HOLE_M2.6 (layer B.Cu) (tedit 0) (tstamp 6035B3F4)
-    (at 209.296 120.65)
+    (at 209.296 121.142)
     (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
@@ -187,7 +187,7 @@
   )
 
   (module keyboard_parts:HOLE_M2.6 (layer B.Cu) (tedit 0) (tstamp 6035B3F0)
-    (at 130.048 99.568)
+    (at 130.048 100.06)
     (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
@@ -198,7 +198,7 @@
   )
 
   (module keyboard_parts:HOLE_M2.6 (layer B.Cu) (tedit 0) (tstamp 6035B3EC)
-    (at 209.296 99.568)
+    (at 209.296 100.06)
     (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
