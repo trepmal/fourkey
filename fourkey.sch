@@ -60,16 +60,14 @@ $EndComp
 $Comp
 L keyboard_parts:GND #PWR0101
 U 1 1 6035B7A5
-P 5900 3400
-F 0 "#PWR0101" H 5900 3450 20  0001 C CNN
-F 1 "GND" H 5900 3459 30  0000 C CNN
-F 2 "" H 5900 3400 60  0000 C CNN
-F 3 "" H 5900 3400 60  0000 C CNN
-	1    5900 3400
+P 5400 3350
+F 0 "#PWR0101" H 5400 3400 20  0001 C CNN
+F 1 "GND" H 5400 3409 30  0000 C CNN
+F 2 "" H 5400 3350 60  0000 C CNN
+F 3 "" H 5400 3350 60  0000 C CNN
+	1    5400 3350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5900 2000 5900 3400
 Text Label 4250 3000 0    50   ~ 0
 SW3
 $Comp
@@ -83,13 +81,11 @@ F 3 "" H 4750 3700 60  0000 C CNN
 	1    4750 3700
 	1    0    0    -1  
 $EndComp
-Text Label 5400 2000 2    50   ~ 0
-SW1
-Text Label 5400 2400 2    50   ~ 0
+Text Label 6000 2400 0    50   ~ 0
 SW2
-Text Label 5400 2800 2    50   ~ 0
+Text Label 6000 2800 0    50   ~ 0
 SW3
-Text Label 5400 3150 2    50   ~ 0
+Text Label 6000 3150 0    50   ~ 0
 SW4
 Text Label 4450 3700 2    50   ~ 0
 Reset
@@ -183,4 +179,17 @@ NoConn ~ 2850 3100
 Text Label 2850 3000 2    50   ~ 0
 SW4
 NoConn ~ 2850 2900
+Text Label 6000 2000 0    50   ~ 0
+SW1
+Wire Wire Line
+	5400 2000 5400 2400
+Connection ~ 5400 2400
+Wire Wire Line
+	5400 2400 5400 2800
+Connection ~ 5400 2800
+Wire Wire Line
+	5400 2800 5400 3150
+Connection ~ 5400 3150
+Wire Wire Line
+	5400 3150 5400 3350
 $EndSCHEMATC
