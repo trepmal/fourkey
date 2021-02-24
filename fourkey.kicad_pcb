@@ -21,7 +21,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user hide)
+    (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -158,7 +158,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -177,7 +177,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -196,7 +196,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -215,7 +215,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -234,7 +234,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 4.5) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
     )
     (fp_text value VAL** (at 0.05 7.25) (layer B.SilkS) hide
@@ -242,66 +242,66 @@
     )
     (fp_circle (center 0 0) (end 2.15 0) (layer B.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 1.9 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer B.Cu) (tedit 56D1B4CB) (tstamp 6036307F)
+  (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 6036307F)
     (at 145.844 115.348)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_text value VAL** (at 0.05 7.25) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+    (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_circle (center 0 0) (end 2.15 0) (layer B.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
     (fp_circle (center 0 0) (end 1.9 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
+    (fp_circle (center 0 0) (end 2.15 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer B.Cu) (tedit 56D1B4CB) (tstamp 6036308B)
+  (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 6036308B)
     (at 66.5 94.17)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_text value VAL** (at 0.05 7.25) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+    (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_circle (center 0 0) (end 2.15 0) (layer B.CrtYd) (width 0.05))
+    (fp_circle (center 0 0) (end 2.15 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 1.9 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
     )
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
-  (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer B.Cu) (tedit 56D1B4CB) (tstamp 60363097)
+  (module MountingHole:MountingHole_2.2mm_M2_DIN965 (layer F.Cu) (tedit 56D1B4CB) (tstamp 60363097)
     (at 145.844 94.17)
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 4.5) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_text value VAL** (at 0.05 7.25) (layer B.SilkS) hide
-      (effects (font (size 1.524 1.524) (thickness 0.3048)) (justify mirror))
+    (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
+      (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
-    (fp_circle (center 0 0) (end 2.15 0) (layer B.CrtYd) (width 0.05))
+    (fp_text user %R (at 0.3 0) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
     (fp_circle (center 0 0) (end 1.9 0) (layer Cmts.User) (width 0.15))
-    (fp_text user %R (at 0.3 0) (layer B.Fab)
-      (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
-    )
+    (fp_circle (center 0 0) (end 2.15 0) (layer F.CrtYd) (width 0.05))
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
@@ -310,7 +310,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -329,7 +329,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -348,7 +348,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
@@ -367,7 +367,7 @@
     (descr "Mounting Hole 2.2mm, no annular, M2, DIN965")
     (tags "mounting hole 2.2mm no annular m2 din965")
     (attr virtual)
-    (fp_text reference HOLE_M2.6 (at 0 -4.5) (layer F.SilkS) hide
+    (fp_text reference HOLE_M2.2 (at 0 -4.5) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3048)))
     )
     (fp_text value VAL** (at 0.05 -7.25) (layer F.SilkS) hide
